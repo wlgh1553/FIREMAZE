@@ -1,5 +1,12 @@
 #include "GameManager.h"
 
+//객체 생성
+GameManager& GameManager::getIncetance()
+{
+	static GameManager g;
+	return g;
+}
+
 //키보드 관련
 char GameManager::nowKey;
 bool GameManager::KeyControl()
@@ -349,8 +356,6 @@ void GameManager::GetItem(std::pair<int, int>& kb)
 			player[kb.first - 1]->getItem(player[kb.first - 1]->EX::FIREPLUG);
 	}
 }
-
-int GameManager::tempCnt = 0;
 bool GameManager::ControlFire()
 {
 	int nowTime = (GetTickCount64() - GameStartTime) / 1000;

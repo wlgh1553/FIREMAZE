@@ -3,8 +3,8 @@
 
 int main()
 {
-	GameManager me;
-	me.StartProgram();
+	GameManager& game = GameManager::getIncetance();
+	game.StartProgram();
 
 	return 0;
 }

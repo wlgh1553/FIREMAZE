@@ -6,11 +6,16 @@
 #include"Player.h"
 #include "util.h"
 
-//singleton ∏Ò«•!!
 class GameManager
 {
+//signleton
+private:
+	GameManager() {}
+	GameManager(const GameManager& ref) {}
+	GameManager& operator=(const GameManager& ref) {}
+	~GameManager() {}
 public:
-	static int tempCnt;
+	static GameManager& getIncetance();
 
 	static int AllArr[4][19][25];
 	GameScreen* now_map;
