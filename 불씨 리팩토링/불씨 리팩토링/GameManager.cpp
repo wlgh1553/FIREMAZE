@@ -1,7 +1,7 @@
 #include "GameManager.h"
 
 //°´Ã¼ »ı¼º
-GameManager& GameManager::getIncetance()
+GameManager& GameManager::getInstance()
 {
 	static GameManager g;
 	return g;

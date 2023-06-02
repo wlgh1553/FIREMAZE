@@ -15,7 +15,7 @@ private:
 	GameManager& operator=(const GameManager& ref) {}
 	~GameManager() {}
 public:
-	static GameManager& getIncetance();
+	static GameManager& getInstance();
 
 	static int AllArr[4][19][25];
 	GameScreen* now_map;
@@ -31,6 +31,7 @@ public:
 	static char nowKey;
 	static bool KeyControl();
 
+	//게임 흐름 관리
 	void StartProgram();
 	void InitGame(int Map_sort);
 	bool RunGame();

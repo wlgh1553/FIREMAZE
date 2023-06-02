@@ -3,7 +3,7 @@
 
 int main()
 {
-	GameManager& game = GameManager::getIncetance();
+	GameManager& game = GameManager::getInstance();
 	game.StartProgram();
 
 	return 0;
