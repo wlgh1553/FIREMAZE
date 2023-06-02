@@ -1,0 +1,19 @@
+﻿  GameManager.cpp
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\GameManager.cpp(155,45): warning C4244: '인수': 'unsigned __int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\GameManager.cpp(356,14): warning C4244: '초기화 중': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameMap.cpp
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\GameMap.cpp(19,27): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameScreen.cpp
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\GameScreen.cpp(6,14): warning C4244: '초기화 중': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+  Player.cpp
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\Player.cpp(42,37): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\Player.cpp(64,11): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'ULONGLONG'입니다.
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\Player.cpp(64,11): message : 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\Player.cpp(64,11): message : 서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\Player.cpp(64,11): message : 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+  util.cpp
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\util.cpp(4,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\불씨 리팩토링\util.cpp(4,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  코드를 생성하고 있습니다...
+  불씨 리팩토링.vcxproj -> C:\Users\이지호\Desktop\FIREMAZE\불씨 리팩토링\x64\Debug\불씨 리팩토링.exe
